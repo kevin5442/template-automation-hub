@@ -1,25 +1,27 @@
 
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 const testimonials = [
   {
     content: "Эти шаблоны автоматизации сэкономили нашей команде бесчисленные часы работы. Шаблон адаптации помог нам стандартизировать процесс и повысить удовлетворенность клиентов на 30%.",
     author: "Мария Иванова",
     role: "Менеджер по работе с клиентами",
     company: "ТехКорп",
-    image: "bg-gray-300"
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=150&h=150"
   },
   {
     content: "Сначала я скептически относился, но эти шаблоны невероятно хорошо спроектированы. Мы внедрили рабочий процесс обработки счетов и сократили время обработки на 70%.",
     author: "Михаил Чен",
     role: "Финансовый директор",
     company: "Глобал Солюшнс",
-    image: "bg-gray-300"
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=150&h=150"
   },
   {
     content: "Шаблон адаптации сотрудников преобразил то, как мы принимаем новых сотрудников в нашу компанию. То, что раньше занимало дни, теперь происходит автоматически с лучшей согласованностью.",
     author: "Елена Родригез",
     role: "HR-директор",
     company: "Инновейт Партнерс",
-    image: "bg-gray-300"
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=150&h=150"
   }
 ];
 
@@ -50,7 +52,10 @@ const TestimonialsSection = () => {
                   <p className="text-gray-700 mb-4">{testimonial.content}</p>
                 </div>
                 <div className="flex items-center mt-4">
-                  <div className={`${testimonial.image} h-12 w-12 rounded-full flex-shrink-0`}></div>
+                  <Avatar className="h-12 w-12 border border-gray-200">
+                    <AvatarImage src={testimonial.image} alt={testimonial.author} />
+                    <AvatarFallback>{testimonial.author.charAt(0)}</AvatarFallback>
+                  </Avatar>
                   <div className="ml-4">
                     <p className="text-gray-900 font-medium">{testimonial.author}</p>
                     <p className="text-gray-500 text-sm">{testimonial.role}, {testimonial.company}</p>
