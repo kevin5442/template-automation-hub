@@ -1,24 +1,24 @@
 
 const testimonials = [
   {
-    content: "These automation templates saved our team countless hours of work. The onboarding template helped us standardize our process and improve customer satisfaction by 30%.",
-    author: "Sarah Johnson",
-    role: "Customer Success Manager",
-    company: "TechCorp Inc.",
+    content: "Эти шаблоны автоматизации сэкономили нашей команде бесчисленные часы работы. Шаблон адаптации помог нам стандартизировать процесс и повысить удовлетворенность клиентов на 30%.",
+    author: "Мария Иванова",
+    role: "Менеджер по работе с клиентами",
+    company: "ТехКорп",
     image: "bg-gray-300"
   },
   {
-    content: "I was skeptical at first, but these templates are incredibly well-designed. We implemented the invoice processing workflow and reduced our processing time by 70%.",
-    author: "Michael Chen",
-    role: "Finance Director",
-    company: "Global Solutions",
+    content: "Сначала я скептически относился, но эти шаблоны невероятно хорошо спроектированы. Мы внедрили рабочий процесс обработки счетов и сократили время обработки на 70%.",
+    author: "Михаил Чен",
+    role: "Финансовый директор",
+    company: "Глобал Солюшнс",
     image: "bg-gray-300"
   },
   {
-    content: "The HR onboarding template transformed how we bring new employees into our company. What used to take days now happens automatically with better consistency.",
-    author: "Emily Rodriguez",
-    role: "HR Director",
-    company: "Innovate Partners",
+    content: "Шаблон адаптации сотрудников преобразил то, как мы принимаем новых сотрудников в нашу компанию. То, что раньше занимало дни, теперь происходит автоматически с лучшей согласованностью.",
+    author: "Елена Родригез",
+    role: "HR-директор",
+    company: "Инновейт Партнерс",
     image: "bg-gray-300"
   }
 ];
@@ -29,13 +29,13 @@ const TestimonialsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-automation-purple uppercase tracking-wide">
-            Testimonials
+            Отзывы
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight">
-            Trusted by businesses worldwide
+            Нам доверяют бизнесы по всему миру
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            See what our customers are saying about our automation templates
+            Посмотрите, что говорят наши клиенты о наших шаблонах автоматизации
           </p>
         </div>
 

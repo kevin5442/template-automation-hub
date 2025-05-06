@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
-              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-automation-purple to-automation-teal">AutoTemplate</span>
+              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-automation-purple to-automation-teal">АвтоШаблон</span>
             </a>
           </div>
           
@@ -30,25 +30,22 @@ const Navbar = () => {
           {/* Desktop menu */}
           <nav className="hidden md:flex space-x-10">
             <a href="#templates" className="text-base font-medium text-gray-700 hover:text-automation-purple">
-              Templates
+              Шаблоны
             </a>
             <a href="#features" className="text-base font-medium text-gray-700 hover:text-automation-purple">
-              Features
+              Возможности
             </a>
             <a href="#how-it-works" className="text-base font-medium text-gray-700 hover:text-automation-purple">
-              How It Works
+              Как это работает
             </a>
             <a href="#pricing" className="text-base font-medium text-gray-700 hover:text-automation-purple">
-              Pricing
+              Цены
             </a>
           </nav>
           
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <Button variant="outline" className="mr-4">
-              Sign in
-            </Button>
             <Button className="bg-automation-purple hover:bg-automation-indigo text-white">
-              Get Started
+              Начать
             </Button>
           </div>
         </div>
@@ -63,35 +60,32 @@ const Navbar = () => {
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-automation-purple hover:bg-gray-50"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Templates
+              Шаблоны
             </a>
             <a 
               href="#features" 
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-automation-purple hover:bg-gray-50"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Features
+              Возможности
             </a>
             <a 
               href="#how-it-works" 
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-automation-purple hover:bg-gray-50"
               onClick={() => setMobileMenuOpen(false)}
             >
-              How It Works
+              Как это работает
             </a>
             <a 
               href="#pricing" 
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-automation-purple hover:bg-gray-50"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Pricing
+              Цены
             </a>
-            <div className="mt-6 space-y-2">
-              <Button variant="outline" className="w-full">
-                Sign in
-              </Button>
+            <div className="mt-6">
               <Button className="w-full bg-automation-purple hover:bg-automation-indigo text-white">
-                Get Started
+                Начать
               </Button>
             </div>
           </div>

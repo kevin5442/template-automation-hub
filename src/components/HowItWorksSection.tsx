@@ -2,26 +2,26 @@
 const steps = [
   {
     number: "01",
-    title: "Browse Templates",
-    description: "Explore our library of automation templates categorized by department, function, and platform.",
+    title: "Выбор шаблона",
+    description: "Изучите нашу библиотеку шаблонов автоматизации, разделенных по отделам, функциям и платформам.",
     image: "bg-gradient-to-br from-automation-purple to-automation-indigo"
   },
   {
     number: "02",
-    title: "Purchase & Download",
-    description: "Select the template that fits your needs and complete your purchase for immediate access.",
+    title: "Покупка и загрузка",
+    description: "Выберите шаблон, который соответствует вашим потребностям, и завершите покупку для немедленного доступа.",
     image: "bg-gradient-to-br from-automation-teal to-cyan-500"
   },
   {
     number: "03",
-    title: "Customize & Deploy",
-    description: "Follow our step-by-step guide to customize the template for your specific requirements.",
+    title: "Настройка и внедрение",
+    description: "Следуйте нашему пошаговому руководству для настройки шаблона под ваши конкретные требования.",
     image: "bg-gradient-to-br from-violet-600 to-automation-purple"
   },
   {
     number: "04",
-    title: "Automate & Scale",
-    description: "Deploy your automation, save time, and scale your business processes efficiently.",
+    title: "Автоматизация и масштабирование",
+    description: "Разверните автоматизацию, экономьте время и эффективно масштабируйте бизнес-процессы.",
     image: "bg-gradient-to-br from-blue-600 to-automation-teal"
   }
 ];
@@ -32,13 +32,13 @@ const HowItWorksSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-automation-purple uppercase tracking-wide">
-            Simple Process
+            Простой процесс
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight">
-            How It Works
+            Как это работает
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            Get started with automation templates in just four simple steps
+            Начните использовать шаблоны автоматизации всего за четыре простых шага
           </p>
         </div>
 

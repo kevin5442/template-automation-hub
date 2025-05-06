@@ -5,50 +5,50 @@ import { CheckCircle } from "lucide-react";
 
 const plans = [
   {
-    name: "Basic",
-    description: "Perfect for individuals and small teams",
-    price: "49",
-    billing: "per template",
+    name: "Базовый",
+    description: "Идеально для частных лиц и небольших команд",
+    price: "3 990",
+    billing: "за шаблон",
     features: [
-      "Single template download",
-      "60-day access to updates",
-      "Basic email support",
-      "Documentation included",
-      "Use on 1 project"
+      "Загрузка одного шаблона",
+      "60 дней доступа к обновлениям",
+      "Базовая поддержка по email",
+      "Включенная документация",
+      "Использование в 1 проекте"
     ],
-    cta: "Purchase Template",
+    cta: "Купить шаблон",
     featured: false
   },
   {
-    name: "Professional",
-    description: "Ideal for growing businesses",
-    price: "199",
-    billing: "per month",
+    name: "Профессиональный",
+    description: "Идеально для растущего бизнеса",
+    price: "14 990",
+    billing: "в месяц",
     features: [
-      "Access to all templates",
-      "Unlimited updates",
-      "Priority email support",
-      "Video implementation guides",
-      "Use on unlimited projects",
-      "Monthly new templates"
+      "Доступ ко всем шаблонам",
+      "Неограниченные обновления",
+      "Приоритетная поддержка по email",
+      "Видеоруководства по внедрению",
+      "Использование в неограниченных проектах",
+      "Ежемесячные новые шаблоны"
     ],
-    cta: "Start 14-Day Trial",
+    cta: "Начать 14-дневную пробную версию",
     featured: true
   },
   {
-    name: "Enterprise",
-    description: "For large organizations",
-    price: "499",
-    billing: "per month",
+    name: "Корпоративный",
+    description: "Для крупных организаций",
+    price: "39 990",
+    billing: "в месяц",
     features: [
-      "All Professional features",
-      "Custom template requests",
-      "Dedicated support manager",
-      "Implementation assistance",
-      "Team training sessions",
-      "Custom integrations"
+      "Все возможности Профессионального тарифа",
+      "Запросы на пользовательские шаблоны",
+      "Выделенный менеджер поддержки",
+      "Помощь во внедрении",
+      "Обучающие сессии для команды",
+      "Индивидуальные интеграции"
     ],
-    cta: "Contact Sales",
+    cta: "Связаться с отделом продаж",
     featured: false
   }
 ];
@@ -59,13 +59,13 @@ const PricingSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-automation-purple uppercase tracking-wide">
-            Pricing
+            Цены
           </h2>
           <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight">
-            Choose your plan
+            Выберите свой план
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            Simple, transparent pricing that scales with your needs
+            Простые и прозрачные цены, которые масштабируются вместе с вашими потребностями
           </p>
         </div>
 
@@ -82,7 +82,7 @@ const PricingSection = () => {
               {plan.featured && (
                 <div className="absolute top-0 translate-y-[-50%] left-0 right-0 mx-auto w-fit">
                   <div className="bg-automation-purple text-white text-sm font-bold px-4 py-1 rounded-full">
-                    Most Popular
+                    Самый популярный
                   </div>
                 </div>
               )}
@@ -90,7 +90,7 @@ const PricingSection = () => {
                 <h3 className="text-2xl font-bold text-gray-900">{plan.name}</h3>
                 <p className="text-gray-500 mt-2">{plan.description}</p>
                 <div className="mt-6 flex items-baseline">
-                  <span className="text-5xl font-extrabold text-gray-900">${plan.price}</span>
+                  <span className="text-5xl font-extrabold text-gray-900">{plan.price} ₽</span>
                   <span className="ml-1 text-xl font-medium text-gray-500">{plan.billing}</span>
                 </div>
               </CardHeader>
@@ -121,7 +121,7 @@ const PricingSection = () => {
         
         <div className="mt-12 text-center">
           <p className="text-gray-500">
-            Need a custom solution? <a href="#" className="text-automation-purple font-medium">Contact us</a> to discuss your specific requirements.
+            Нужно индивидуальное решение? <a href="#" className="text-automation-purple font-medium">Свяжитесь с нами</a> чтобы обсудить ваши конкретные требования.
           </p>
         </div>
       </div>

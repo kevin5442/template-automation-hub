@@ -3,28 +3,28 @@ import { CheckCircle } from "lucide-react";
 
 const features = [
   {
-    name: "Ready-to-deploy templates",
-    description: "Our templates are fully tested and ready to deploy in your existing systems with minimal configuration."
+    name: "Готовые к внедрению шаблоны",
+    description: "Наши шаблоны полностью протестированы и готовы к внедрению в ваши существующие системы с минимальной настройкой."
   },
   {
-    name: "Integration with popular tools",
-    description: "Works seamlessly with tools you already use like Zapier, Make, Airtable, Notion, and more."
+    name: "Интеграция с популярными инструментами",
+    description: "Работает без проблем с инструментами, которые вы уже используете: Zapier, Make, Airtable, Notion и другими."
   },
   {
-    name: "Customization friendly",
-    description: "All templates can be easily customized to fit your specific business requirements and processes."
+    name: "Гибкая настройка",
+    description: "Все шаблоны легко настраиваются под ваши конкретные бизнес-требования и процессы."
   },
   {
-    name: "Regular updates",
-    description: "All templates receive regular updates to ensure compatibility with the latest platform changes."
+    name: "Регулярные обновления",
+    description: "Все шаблоны регулярно обновляются для обеспечения совместимости с последними изменениями платформ."
   },
   {
-    name: "Community-reviewed",
-    description: "Our templates are built by experts and reviewed by our community of automation professionals."
+    name: "Проверены сообществом",
+    description: "Наши шаблоны созданы экспертами и проверены нашим сообществом профессионалов в области автоматизации."
   },
   {
-    name: "Implementation support",
-    description: "Get expert help implementing and customizing your templates whenever you need it."
+    name: "Поддержка внедрения",
+    description: "Получите экспертную помощь по внедрению и настройке ваших шаблонов, когда она вам понадобится."
   }
 ];
 
@@ -33,12 +33,12 @@ const FeaturesSection = () => {
     <section id="features" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base text-automation-purple font-semibold tracking-wide uppercase">Features</h2>
+          <h2 className="text-base text-automation-purple font-semibold tracking-wide uppercase">Возможности</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to automate faster
+            Всё необходимое для быстрой автоматизации
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Our automation templates are designed to help you implement proven solutions quickly and efficiently.
+            Наши шаблоны автоматизации разработаны, чтобы помочь вам внедрять проверенные решения быстро и эффективно.
           </p>
         </div>
 

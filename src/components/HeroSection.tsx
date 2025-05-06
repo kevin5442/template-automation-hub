@@ -12,25 +12,25 @@ const HeroSection = () => {
           <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
             <h1>
               <span className="block text-sm font-semibold uppercase tracking-wider text-automation-teal">
-                Streamline your workflow
+                Оптимизируйте ваши рабочие процессы
               </span>
               <span className="mt-1 block text-4xl sm:text-5xl xl:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-automation-purple via-automation-indigo to-automation-teal">
-                Automation Templates for Modern Business
+                Шаблоны автоматизации для современного бизнеса
               </span>
             </h1>
             <p className="mt-6 text-xl text-gray-500">
-              Save countless hours with our pre-built automation templates. 
-              Deploy proven solutions across your organization in minutes, not months.
+              Экономьте бесчисленные часы с нашими готовыми шаблонами автоматизации.
+              Внедряйте проверенные решения в вашу организацию за минуты, а не месяцы.
             </p>
             <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <Button className="w-full flex items-center justify-center px-8 py-6 border border-transparent text-base font-medium rounded-md text-white bg-automation-purple hover:bg-automation-indigo md:py-6 md:text-lg md:px-10">
-                  Browse Templates
+                  Просмотр шаблонов
                 </Button>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <Button variant="outline" className="w-full flex items-center justify-center px-8 py-6 border border-transparent text-base font-medium rounded-md md:py-6 md:text-lg md:px-10">
-                  How It Works
+                  Как это работает
                 </Button>
               </div>
             </div>
@@ -48,8 +48,8 @@ const HeroSection = () => {
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
                           </div>
-                          <h3 className="text-xl font-medium text-white">See Our Templates in Action</h3>
-                          <p className="mt-2 text-white text-opacity-80">Explore how our automation templates can transform your workflow</p>
+                          <h3 className="text-xl font-medium text-white">Смотрите наши шаблоны в действии</h3>
+                          <p className="mt-2 text-white text-opacity-80">Узнайте, как наши шаблоны автоматизации могут преобразить ваши рабочие процессы</p>
                         </div>
                       </div>
                     </div>

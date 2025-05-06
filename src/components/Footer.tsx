@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
-            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-automation-purple to-automation-teal">AutoTemplate</span>
+            <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-automation-purple to-automation-teal">АвтоШаблон</span>
             <p className="mt-4 text-gray-500 text-sm">
-              Providing professional automation templates for businesses of all sizes. Save time, reduce errors, and scale your operations.
+              Предоставляем профессиональные шаблоны автоматизации для бизнеса любого масштаба. Экономьте время, уменьшайте количество ошибок и масштабируйте свои операции.
             </p>
             <div className="mt-6 flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-gray-500">
@@ -34,10 +34,10 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
-              Solutions
+              Решения
             </h3>
             <ul className="mt-4 space-y-4">
-              {["Marketing", "Sales", "Customer Success", "Human Resources", "Finance", "IT & Operations"].map((item) => (
+              {["Маркетинг", "Продажи", "Клиентский сервис", "HR", "Финансы", "IT и Операции"].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-base text-gray-500 hover:text-gray-900">
                     {item}
@@ -48,10 +48,10 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
-              Company
+              Компания
             </h3>
             <ul className="mt-4 space-y-4">
-              {["About", "Careers", "Blog", "Partners", "Press", "Contact Us"].map((item) => (
+              {["О нас", "Карьера", "Блог", "Партнеры", "Пресса", "Связаться с нами"].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-base text-gray-500 hover:text-gray-900">
                     {item}
@@ -62,10 +62,10 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">
-              Resources
+              Ресурсы
             </h3>
             <ul className="mt-4 space-y-4">
-              {["Documentation", "Tutorials", "Webinars", "Community", "Support", "FAQ"].map((item) => (
+              {["Документация", "Руководства", "Вебинары", "Сообщество", "Поддержка", "FAQ"].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-base text-gray-500 hover:text-gray-900">
                     {item}
@@ -78,12 +78,12 @@ const Footer = () => {
         <Separator className="my-8" />
         <div className="flex flex-col md:flex-row justify-between">
           <p className="text-base text-gray-400">
-            &copy; {new Date().getFullYear()} AutoTemplate, Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} АвтоШаблон. Все права защищены.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
-            <a href="#" className="text-sm text-gray-500 hover:text-gray-900">Privacy Policy</a>
-            <a href="#" className="text-sm text-gray-500 hover:text-gray-900">Terms of Service</a>
-            <a href="#" className="text-sm text-gray-500 hover:text-gray-900">Cookie Policy</a>
+            <a href="#" className="text-sm text-gray-500 hover:text-gray-900">Политика конфиденциальности</a>
+            <a href="#" className="text-sm text-gray-500 hover:text-gray-900">Условия использования</a>
+            <a href="#" className="text-sm text-gray-500 hover:text-gray-900">Политика cookie</a>
           </div>
         </div>
       </div>
