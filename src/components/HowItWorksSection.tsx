@@ -1,4 +1,6 @@
 
+import { ArrowRight } from "lucide-react";
+
 const steps = [
   {
     number: "01",
@@ -46,8 +48,18 @@ const HowItWorksSection = () => {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {steps.map((step, index) => (
               <div key={index} className="flex flex-col items-center text-center">
-                <div className={`${step.image} h-24 w-24 rounded-full flex items-center justify-center mb-6`}>
-                  <span className="text-3xl font-bold text-white">{step.number}</span>
+                <div className={`${step.image} h-24 w-24 rounded-full flex items-center justify-center mb-6 relative overflow-hidden group`}>
+                  <div className="absolute inset-0 opacity-20 bg-white mix-blend-overlay"></div>
+                  <div className="absolute inset-0 border-4 border-white border-opacity-30 rounded-full"></div>
+                  <div className="absolute inset-0 bg-gradient-to-tr from-black/20 to-transparent"></div>
+                  <div className="relative z-10 flex items-center justify-center w-full h-full">
+                    <span className="text-3xl font-bold text-white">{step.number}</span>
+                  </div>
+                  <div className="absolute inset-0 transform scale-0 group-hover:scale-100 transition-transform duration-300">
+                    <div className="absolute inset-0 bg-white/10 backdrop-blur-sm flex items-center justify-center">
+                      <ArrowRight className="text-white w-8 h-8" />
+                    </div>
+                  </div>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
                 <p className="mt-2 text-base text-gray-500">{step.description}</p>
