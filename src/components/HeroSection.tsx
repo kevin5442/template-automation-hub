@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* Background gradient effects */}
       <div className="absolute inset-0 bg-[radial-gradient(60%_120%_at_50%_50%,#4F46E5_0%,rgba(255,255,255,0)_100%)] opacity-10"></div>
       
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+      <div className="relative max-w-[1200px] mx-auto px-4 sm:px-6 pt-16">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
             <h1>

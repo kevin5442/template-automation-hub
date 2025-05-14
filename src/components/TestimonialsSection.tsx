@@ -28,7 +28,7 @@ const testimonials = [
 const TestimonialsSection = () => {
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-base font-semibold text-automation-purple uppercase tracking-wide">
             Отзывы

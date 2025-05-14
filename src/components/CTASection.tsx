@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const CTASection = () => {
   return (
     <section className="py-20 bg-automation-blue">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
           <div>
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">

@@ -31,7 +31,7 @@ const features = [
 const FeaturesSection = () => {
   return (
     <section id="features" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="lg:text-center">
           <h2 className="text-base text-automation-purple font-semibold tracking-wide uppercase">Возможности</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
